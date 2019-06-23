@@ -34,15 +34,15 @@
     },
     "github-buttons": {
       "buttons": [{
-        "user": "riskers",
-        "repo": "gitbook-template",
+        "user": "heathcliff233",
+        "repo": "pythonhelper",
         "type": "star",
         "size": "small",
         "count": true
       }]
     },
     "editlink": {
-      "base": "https://github.com/riskers/gitbook-template/blob/master",
+      "base": "https://github.com/heathcliff233/pythonhelper/master",
       "label": "Edit",
       "multilingual": false
     },
