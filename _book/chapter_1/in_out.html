@@ -1,0 +1,434 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>02. in out · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="set.html" />
+    
+    
+    <link rel="prev" href="string.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1.html">
+            
+                <a href="../chapter1.html">
+            
+                    
+                    Chapter 1 : Python basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="string.html">
+            
+                <a href="string.html">
+            
+                    
+                    01. string
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="in_out.html">
+            
+                <a href="in_out.html">
+            
+                    
+                    02. in out
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="set.html">
+            
+                <a href="set.html">
+            
+                    
+                    03. set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="cycle.html">
+            
+                <a href="cycle.html">
+            
+                    
+                    04. cycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="list.html">
+            
+                <a href="list.html">
+            
+                    
+                    05. list
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="sys.html">
+            
+                <a href="sys.html">
+            
+                    
+                    06. sys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="function.html">
+            
+                <a href="function.html">
+            
+                    
+                    07. function
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="object_oriented.html">
+            
+                <a href="object_oriented.html">
+            
+                    
+                    08. object_oriented
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="errors.html">
+            
+                <a href="errors.html">
+            
+                    
+                    09. errors
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../user.html">
+            
+                <a href="../user.html">
+            
+                    
+                    user
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >02. in out</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="iostream">IOstream</h1>
+<p><strong>&#x8F93;&#x5165;&#x5207;&#x5272;</strong>(split() func)</p>
+<pre><code class="lang-python">a , b = input().split()
+a , b = input().split(<span class="hljs-string">&apos;,&apos;</span>)
+</code></pre>
+<p><strong>&#x81EA;&#x52A8;&#x5224;&#x5B9A;</strong> identify automatically</p>
+<pre><code class="lang-python">a = eval(input())
+<span class="hljs-comment"># input -&gt; &apos;1,2,3.5&apos;</span>
+<span class="hljs-comment"># a = (1 , 2 , 3.5)</span>
+</code></pre>
+<blockquote>
+<p>&#x683C;&#x5F0F;&#x8F93;&#x51FA;(format output)</p>
+</blockquote>
+<pre><code class="lang-python">x,y = <span class="hljs-number">3</span>,<span class="hljs-number">5</span>
+print(x,y)
+<span class="hljs-comment"># get 3 5</span>
+</code></pre>
+<p>seperate</p>
+<pre><code class="lang-python">x,y = <span class="hljs-number">3</span>,<span class="hljs-number">5</span>
+print(x , y , sep = <span class="hljs-string">&apos;,&apos;</span>)
+<span class="hljs-comment"># get 3,5</span>
+</code></pre>
+<p>without changing line</p>
+<pre><code class="lang-python">list = [<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>]
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> list[:<span class="hljs-number">-1</span>]:
+    print(i,<span class="hljs-string">&apos;,&apos;</span>,end = <span class="hljs-string">&apos; &apos;</span>)
+print(list[<span class="hljs-number">-1</span>])
+<span class="hljs-comment"># get 2 , 3 , 4 , 5 , 6</span>
+</code></pre>
+<p>format</p>
+<pre><code class="lang-python">x,y = <span class="hljs-number">3</span>,<span class="hljs-number">5</span>
+print(<span class="hljs-string">&apos;x=%d,y=%d&apos;</span>%(x,y))
+<span class="hljs-comment"># get x=3,y=5</span>
+</code></pre>
+<p>change line within arg</p>
+<pre><code class="lang-python">print(<span class="hljs-string">&apos;x=%d,y=%d \nhhhhhhh&apos;</span>%(x,y))
+</code></pre>
+<p>&#x4FDD;&#x7559;&#x5C0F;&#x6570;(save dots)</p>
+<pre><code class="lang-python">z = <span class="hljs-number">2.237237</span>
+print(<span class="hljs-string">&apos;the result is %.2f.&apos;</span>%z)
+</code></pre>
+<p>control white space</p>
+<pre><code class="lang-python">print(<span class="hljs-string">&apos;the result is %10.2f.&apos;</span>%z)
+<span class="hljs-comment"># &#x683C;&#x5F0F;&#x5BF9;&#x9F50;&#xFF0C;&#x8868;&#x793A;&#x5360;&#x591A;&#x5C11;&#x5217;</span>
+<span class="hljs-comment"># get: the result is       2.24.</span>
+</code></pre>
+<p>with many arguments to fill</p>
+<pre><code class="lang-python">print(<span class="hljs-string">&apos;x = {0:d},z={1:.2f}&apos;</span>.format(x,z)) 
+<span class="hljs-comment">#1 &#x8868;&#x793A;format&#x4E2D;&#x4F4D;&#x7F6E;</span>
+</code></pre>
+<hr>
+<p>further see ai_programming/3.12/3.12 &#x96C6;&#x5408;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="string.html" class="navigation navigation-prev " aria-label="Previous page: 01. string">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="set.html" class="navigation navigation-next " aria-label="Next page: 03. set">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"02. in out","level":"1.2.2","depth":2,"next":{"title":"03. set","level":"1.2.3","depth":2,"path":"chapter_1/set.md","ref":"chapter_1/set.md","articles":[]},"previous":{"title":"01. string","level":"1.2.1","depth":2,"path":"chapter_1/string.md","ref":"chapter_1/string.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter_1/in_out.md","mtime":"2019-05-02T13:35:53.149Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-13T00:44:04.449Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
