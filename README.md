@@ -12,5 +12,9 @@
 
 * The last part is about the projects.
 
+<<<<<<< HEAD
 
 
+=======
+go to [pages](/_book/index.html)
+>>>>>>> 49cddc202b04de50d92bb5069790c94e8e20a8ea
