@@ -12,3 +12,5 @@ ___
 * The third part is about machine learning.
 
 * The last part is about the projects.
+
+go to [pages](/_book/index.html)
